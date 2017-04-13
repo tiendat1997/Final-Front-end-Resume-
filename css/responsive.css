@@ -1,0 +1,247 @@
+@media (min-width:768px){
+    .container{width:750px}}
+@media (min-width:992px){
+    .container{width:970px}}
+@media (min-width:1200px){
+    .container{width:1170px}}
+
+
+.row {
+    display: inline-flex;
+    margin-left:-15px;margin-right:-15px;
+    width: 100%;
+}
+
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
+{position:relative;min-height:1px;padding-left:15px;padding-right:15px}
+
+
+.col-md-12{width:100%}
+.col-md-11{width:91.66666667%}
+.col-md-10{width:83.33333333%}
+.col-md-9{width:75%}
+.col-md-8{width:66.66666667%}
+.col-md-7{width:58.33333333%}
+.col-md-6{width:50%}
+.col-md-5{width:41.66666667%}
+.col-md-4{width:33.33333333%}
+.col-md-3{width:25%}
+.col-md-2{width:16.66666667%}
+.col-md-1{width:8.33333333%}
+
+
+
+
+/* --- For web --- */
+@media only screen and (min-width: 1037px) {
+    .subnav{
+        display: none;
+    }
+    .hero-title #begin-title:after{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1036px) {
+
+    .opacity-title{
+        opacity: 0.4 !important;
+    }
+    #main .wrapper-inner  ,#main header , #main footer {
+        width:100%;
+    }
+
+    .wrapper-inner   {
+        float:left;
+
+    }
+
+    footer {
+        z-index: 4 !important;
+        align-content: center;
+        position:relative !important;
+
+
+
+    }
+
+    #main .nav-inner{
+        width: 100%;
+
+    }
+    #sec-para{
+        position: fixed;
+    }
+    #b-ground{
+        position:fixed;
+        background-attachment: fixed;
+    }
+    /*#main.section-parallax{*/
+        /*position:fixed;*/
+        /*background-attachment: fixed;*/
+    /*}*/
+    .hero-title {
+        padding-left:0 !important;
+        padding-right:0 !important;
+    }
+    .hero-title h3 {
+        width:100%;
+        font-size:50px !important;
+        text-align:center !important;
+    }
+    .hero-title h4 {
+        width:100%;
+        text-align:center !important;
+
+    }
+    .hero-wrap {
+        padding-left:0;
+        border: none !important;
+    }
+    .hero-title h4:before {
+        content:'';
+        position:absolute;
+        bottom:-20px;
+        left:50%;
+        margin-left:-35px;
+        width:70px;
+        height:4px;
+    }
+
+
+    .fixed-column{
+        display:none;
+    }
+    #inner-nav .overlay{
+        background-color: #000000;
+        opacity: 0.8;
+    }
+    .wrapper-inner {
+        padding:70px 0;
+    }
+    .searh-holder {
+        position:relative;
+        width:100%;
+        float:left;
+        background:none;
+        padding-left:0;
+        top:-18px;
+    }
+
+    .search {
+        border:1px solid  #ccc;
+        background:none;
+        color:#000;
+    }
+    #main{
+        height:100%;
+        width:100%;
+        position:relative;
+        top:0;
+        left:0;
+        z-index:2;
+        opacity:0;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .home-inner{
+        display: none;
+    }
+    .nav-inner nav .subnav li a{
+        font-size: 14px;
+    }
+
+
+    .scroll-nav{
+        display: none;
+    }
+
+}
+
+@media only screen and  (max-width: 756px) {
+    .row{
+        display: inline-block;
+    }
+    .col-md-5, .col-md-7, .col-md-4, .col-md-8, .col-md-6{
+        width: 100%;
+    }
+    .facts-title {
+        width: 100% !important;
+    }
+    .facts-title h3:before{
+        display: none;
+    }
+     .inline-facts {
+        width: 33.3333% !important;
+    }
+    .folio-img img{
+        width: 90% !important;
+        height: 90% !important;
+    }
+    .progress-circle{
+        margin: 0 auto !important;
+    }
+    .piechart-holder h4{
+        margin-top: 20px !important;
+        margin-left: 0 !important;
+        float: initial !important;
+    }
+    .single-slider-holder .item img{
+        width: 100% !important;
+    }
+    .footer-info {
+        padding-bottom: 50px !important;
+    }
+    .footer-info h4{
+        text-align: center !important;
+    }
+    .footer-info h4:before{
+        margin: 0 auto !important;
+        text-align: center;
+        width: 20px !important;
+        top: 25px;
+        right: 0;
+    }
+    .footer-social {
+        margin: 0 auto;
+        width: 50%;
+
+
+    }
+    .footer-social ul li {
+        width: calc(100% / 5 );
+    }
+    .footer-social ul{
+
+
+        text-align: center !important;
+        margin: 0 auto;
+    }
+    .footer-contacts li{
+        text-align: center !important;
+    }
+    .work h2{
+
+        font-size: 17px !important;
+
+    }
+}
+
+@media only screen and  (max-width: 540px) {
+    .row .typewrite{
+
+        font-size: 18px !important;
+        height: 20px !important;
+
+    }
+    .inline-facts {
+        width: 100% !important;
+
+    }
+    .num , .inline-facts h6{
+        text-align: center !important;
+    }
+}
+
+

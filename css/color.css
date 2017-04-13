@@ -1,0 +1,80 @@
+header{
+    background-color: #191919;
+}
+i{
+    color: #FFC815;
+}
+#hello-title:hover{
+    color: #FFC815;
+}
+
+section .section-title h3{
+    background-color: #FFC815;
+}
+section .section-title h3:before{
+    border-color: transparent #FFC815 transparent transparent;
+}
+.facts-title h3{
+    background-color: #FFC815;
+}
+.facts-title h3:before{
+    border-color: transparent transparent transparent #FFC815 ;
+}
+
+.st-separator, .st-separator:before{
+    background-color: #FFC815;
+}
+.bg-title:before{
+    background-color: #FFC815;
+}
+
+.nav-button span:before {
+    background-color :#FFC815;
+}
+.scroll-nav a:before{
+    background-color :#FFC815;
+}
+.active-link{
+    background-color :#FFC815 !important;
+}
+.hero-wrap {
+    border-left: 4px solid #FFC815;
+}
+.text-title{
+    color:#febb38;
+}
+
+.hero-title h4 a:hover {
+    color: #FFC815;
+}
+.menu-active{
+    color: #FFC815 !important;
+}
+.nav-inner:before{
+    background-color: #FFC815;
+}
+.footer-social li a{
+    background-color: #FFC815;
+}
+.footer-social li a i{
+    color: #191919;
+}
+.to-top{
+    background-color: #FFC815;
+}
+#contact-form input[type="submit"], .controls button{
+    background-color: #FFC815;
+}
+.to-top i{
+    color: white;
+}
+.to-top-holder p:before  , .to-top-holder p:after{
+    background-color: white;
+}
+.price{
+    color: #FFC815;
+}
+.footer-info h4:before {
+    background-color: #FFC815;
+}
+
